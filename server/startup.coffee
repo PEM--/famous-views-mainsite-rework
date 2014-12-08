@@ -9,8 +9,6 @@ Inject.rawHead 'loader-style',
       'bottom:0;height:80px;left:0;margin:auto;position:absolute;' +
       'top:0;right:0;width:80px;' +
       '-webkit-animation: rotation .6s infinite linear;' +
-      '-moz-animation: rotation .6s infinite linear;' +
-      '-o-animation: rotation .6s infinite linear;' +
       'animation: rotation .6s infinite linear;' +
       'border-left:6px solid rgba(255,194,0,.20);' +
       'border-right:6px solid rgba(255,194,0,.20);' +

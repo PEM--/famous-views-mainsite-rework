@@ -5,6 +5,9 @@ Logger.setLevel 'famous-views', 'info'
 # Note that famo.us's CSS is imported as a package, see pierreric:cssc-famous
 famous.polyfills
 
+# Set shortcuts on famo.us
+@Transform = famous.core.Transform
+
 Meteor.startup ->
   # Reshape DOM: put back title and meta elements in the head.
   # style and script tags can leave in the body tag.

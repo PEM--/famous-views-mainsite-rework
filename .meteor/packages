@@ -15,4 +15,6 @@ iron:router
 coffeescript
 meteorhacks:inject-initial
 pierreeric:fview-svg
+gadicohen:fview-lagometer
+gadicohen:reactive-window
 
