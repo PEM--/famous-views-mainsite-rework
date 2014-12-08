@@ -4,15 +4,12 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
-insecure
 pierreeric:cssc
 pierreeric:cssc-colors
 pierreeric:cssc-normalize
-coffeescript
 pierreeric:cssc-famous
 raix:famono
 mquandalle:jade
 gadicohen:famous-views
 iron:router
-
+coffeescript
