@@ -28,10 +28,12 @@ Site structure:
   * Demonstration:
     * One animation at the beginning. If multiple animations are available, it uses a Lightbox of them. The Lightbox content is randomly created so that the landing page ensures excitements for returning to the site as a retention measure.
     * The page is duplicated depending on communications leading to the site: the goal is to track which channel of communication ensure what.
+    * What is famous-views?
     * One summary of an announcement (the others will be available as blog entries): new plugins, new prize, incoming news, API changes, ...
     * Testimonials.
 
 * Tutorial page for basic users.
+  * Quickstart.
   * Installation with links to other tutorials (ex. links to Meteor install).
   * Tutorial like the build of a complete app: a story teller approach.
   * Specific mobile part.
@@ -63,3 +65,4 @@ Other secondary objectives to be added:
 * Who you are? Ensuring better knowledges of user.
 * A/B testing on landing page.
 * Jobs market place.
+* Developper help on the go (no more questions on Github).

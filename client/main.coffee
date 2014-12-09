@@ -28,3 +28,17 @@ FView.ready ->
   console.info "%c\nfamous-views started\n", \
     "font-weight: 300; color: #ec5f3e; font-size: x-large; \
     font-family: #{niceFont}; -webkit-font-smoothing: antialiased;"
+
+# Do not display templates until client browser is ready.
+# This is mostly to ensure that reactive size on the windows
+#  are available avioding recalculations at component instanciations
+#  generating too much CPU pressure on low end terminals.
+isBrowserReady = false
+Router.onBeforeAction ->
+  unless isBrowserReady
+    unless rwindow.innerWidth() is undefined
+      isBrowserReady = true
+      return @next()
+    else
+      return @render null;
+  @next()

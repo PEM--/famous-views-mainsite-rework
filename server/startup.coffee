@@ -2,9 +2,11 @@
 #  all JS files are loaded.
 # The loading spinner needs some theming.
 Inject.rawHead 'loader-style',
+  '<meta name="viewport" content="width=device-width,maximum-scale=1,' +
+    'initial-scale=1,user-scalable=no">' +
   '<style>' +
     'html{background-color: #36342e;}' +
-    'body{color:#ddd;}' +
+    'body{color:#ddd;overflow:hidden;width:100%;}' +
     '.spinner {' +
       'bottom:0;height:80px;left:0;margin:auto;position:absolute;' +
       'top:0;right:0;width:80px;' +

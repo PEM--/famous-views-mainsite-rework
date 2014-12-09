@@ -4,17 +4,29 @@
 # but you can also edit it by hand.
 
 meteor-platform
-pierreeric:cssc
-pierreeric:cssc-colors
-pierreeric:cssc-normalize
-pierreeric:cssc-famous
-raix:famono
-mquandalle:jade
-gadicohen:famous-views
-iron:router
-coffeescript
+# Injecting loader at build process
 meteorhacks:inject-initial
-pierreeric:fview-svg
-gadicohen:fview-lagometer
+# Get reactive size of screen
 gadicohen:reactive-window
-
+# Import famo.us
+raix:famono
+# Jade templating
+mquandalle:jade
+# Langage focused on semantic
+coffeescript
+# Router, used for the server and the clients
+iron:router
+# CSS as CS for avoiding calls to additional CSS files
+pierreeric:cssc
+# Equivalent of Normalize CSS
+pierreeric:cssc-normalize
+# Import famo.us CSS rules without adding a CSS file
+pierreeric:cssc-famous
+# Custom colors toolbox
+pierreeric:cssc-colors
+# Bridge famo.us with Meteor
+gadicohen:famous-views
+# Bridge SVG with famo.us
+pierreeric:fview-svg
+# Debug FPS performances
+gadicohen:fview-lagometer
