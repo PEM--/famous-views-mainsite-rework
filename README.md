@@ -35,20 +35,31 @@ Site structure:
   * Installation with links to other tutorials (ex. links to Meteor install).
   * Tutorial like the build of a complete app: a story teller approach.
   * Specific mobile part.
-  * Plugin usage.
+  * Plugin usage and "Ask for more" button with a specific form for details.
 
 * Advanced usage:
   * Inner API.
   * Advanced component and plugin usage.
   * Contributing guide.
+  * Testing with a focus on graphic and animation.
+  * Debugging help (lagometer, dev tools specific moves, logs, ...).
   * FAQ (caveats, constraints).
-  * Issue work around an reproductions
   * Links to Github.
+  * Issue work around an reproductions.
 
 * Blog
   * Articles sorted by date or main subjects.
   * Articles can be seen on the main site as part of the side menus entries.
+  * External announces like:
+    * Incoming apps
+    * Testimonials (injected in the home page).
 
 * FView-lab
   * Basic tutorial for a mobile app.
   * Gamification and viralization of achieved tutorial.
+  * Tutorials for components and plugins.
+
+Other secondary objectives to be added:
+* Who you are? Ensuring better knowledges of user.
+* A/B testing on landing page.
+* Jobs market place.
