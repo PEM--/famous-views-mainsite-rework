@@ -68,7 +68,7 @@ Inject.rawHead 'loader-style',
       'href="/favicon-32x32.png" sizes="32x32">' +
     '<meta name="msapplication-TileColor" content="#36342e">' +
     '<meta name="msapplication-TileImage" content="/mstile-144x144.png">'
-# The loading spinner is an SVG animation.
+# The loading spinner is an CSS animation.
 # /!\ WARNING: The trick is to create a fake body by injecting data
 # in the HTML's head as Meteor is requesting JS  file in a blocking
 # fashion and mobile only allow 1 HTTP request at a time on a GPRS network.
